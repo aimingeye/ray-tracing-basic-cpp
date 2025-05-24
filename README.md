@@ -18,9 +18,9 @@ raytracergpu.mm        # GPU-optimized ray tracer using Metal
 Raytracer.metal        # Metal shader for GPU ray tracing
 compile.sh             # Script to compile the Metal-based implementation
 untitled.ppm           # Output image (PPM format)
-untitled.png           # High-resolution render with transparency 0.7
-untitled comp.png      # First render
-untitled comp 2.png    # Render with transparency 0.3
+3.png           # High-resolution render with transparency 0.7
+1.png      # First render
+2.png    # Render with transparency 0.3
 ```
 
 ## How It Works
@@ -98,6 +98,7 @@ The rendered image is saved in PPM format. You can view it using any image viewe
   ![High-resolution render](3.png)
 
 - **First render**:
+
   ![First render](1.png)
 
 - **Render with transparency 0.3**:
