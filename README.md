@@ -95,13 +95,13 @@ The rendered image is saved in PPM format. You can view it using any image viewe
 ### Example Renders
 
 - **High-resolution render with transparency 0.7**:
-  ![High-resolution render](untitled.png)
+  ![High-resolution render](3.png)
 
 - **First render**:
-  ![First render](untitled\ comp.png)
+  ![First render](1.png)
 
 - **Render with transparency 0.3**:
-  ![Render with transparency 0.3](untitled\ comp\ 2.png)
+  ![Render with transparency 0.3](2.png)
 
 ## Performance Comparison
 
