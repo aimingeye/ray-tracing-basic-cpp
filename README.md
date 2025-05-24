@@ -18,6 +18,9 @@ raytracergpu.mm        # GPU-optimized ray tracer using Metal
 Raytracer.metal        # Metal shader for GPU ray tracing
 compile.sh             # Script to compile the Metal-based implementation
 untitled.ppm           # Output image (PPM format)
+untitled.png           # High-resolution render with transparency 0.7
+untitled comp.png      # First render
+untitled comp 2.png    # Render with transparency 0.3
 ```
 
 ## How It Works
@@ -89,6 +92,17 @@ spheres.push_back(Sphere(Vec3f(x, y, z), radius, Vec3f(0, 0, 0), 0, 0, emissionC
 
 The rendered image is saved in PPM format. You can view it using any image viewer that supports PPM, such as Preview on macOS.
 
+### Example Renders
+
+- **High-resolution render with transparency 0.7**:
+  ![High-resolution render](untitled.png)
+
+- **First render**:
+  ![First render](untitled\ comp.png)
+
+- **Render with transparency 0.3**:
+  ![Render with transparency 0.3](untitled\ comp\ 2.png)
+
 ## Performance Comparison
 
 | Version | Resolution | Time |
@@ -103,8 +117,4 @@ The rendered image is saved in PPM format. You can view it using any image viewe
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgments
-
-This project is inspired by the "Ray Tracing in One Weekend" series by Peter Shirley.
+See [LICENSE](LICENSE) for license information.
